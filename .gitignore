@@ -1,0 +1,31 @@
+# Python cache
+__pycache__/
+_pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+
+# Local configuration
+config.toml
+
+# Specific directories/files to ignore
+CHAINLIT/
+chainlit/
+translations/
+chainlit_app.cpython-312*
+
+# System/IDE files
+.DS_Store
+.idea/
+.vscode/
+
+# Environment files
+.env
+*.env
+
+# Miscellaneous
+gitignore  # ignores the incorrectly named "gitignore" file (should be .gitignore)
