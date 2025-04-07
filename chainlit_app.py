@@ -15,7 +15,7 @@ if not api_key:
 # Initialize Groq Chat model
 groq_chat = ChatGroq(
     groq_api_key=api_key,
-    model_name="llama3-8b-8192"
+    model_name="meta-llama/llama-4-scout-17b-16e-instruct"
 )
 
 groq_sys_prompt = ChatPromptTemplate.from_template(
